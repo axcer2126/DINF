@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df75febd-3f56-41ec-975e-646dea6955a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/mutation-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/mutation-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/adminSetup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/adminSetup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/views/home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/DBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/config/DBConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/security/JwtAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +58,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -74,6 +68,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jAPI0dQmV3jbboXGkjHc3s5sI4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -131,6 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603243839528</updated>
       <workItem from="1603440375061" duration="502000" />
+      <workItem from="1605181263495" duration="7000" />
     </task>
     <servers />
   </component>

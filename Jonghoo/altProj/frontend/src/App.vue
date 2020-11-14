@@ -1,21 +1,28 @@
 <template>
   <v-app>
     <transition name="view">
-      <router-view/>
+      <router-view class="main"/>
     </transition>
   </v-app>
 </template>
 
 <style scoped>
-.view-enter-acitve, .view-leave.active {
-  transition: opcacity 0.5s ease-in-out, transform 0.5s ease;
+.view-leave-active,
+.view-enter-active {
+  transition: 1.5s;
+  opacity: 1;
 }
-
-.view-enter, .view-leave-to {
+.view-enter{
+  transform: translate(100%, 0);
   opacity: 0;
 }
 
-.view-enter-to, .view-leave {
-  opacity: 1;
+.view-leave-to {
+  transform: translate(-100%, 0);
+  opacity: 0;
+}
+.main {position: absolute;
+width: 100%;
+left: 0;
 }
 </style>

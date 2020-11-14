@@ -1,6 +1,6 @@
 <template>
 <v-responsive style="aspect-ratio: 16:9">
-  <v-main>
+  <v-main style="padding: 0px;">
     <Layout>
       <template #content>
         <v-container fluid class="header">
@@ -12,6 +12,11 @@
               <br/>
               <h6 v-scrollanimation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam at lectus urna. Massa eget egestas purus viverra accumsan in nisl. Integer enim neque volutpat ac tincidunt. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Est sit amet facilisis magna etiam tempor orci. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Et pharetra pharetra massa massa. Et magnis dis parturient montes nascetur ridiculus. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Elementum facilisis leo vel fringilla est. Ut morbi tincidunt augue interdum velit. Ullamcorper dignissim cras tincidunt lobortis feugiat. Vel facilisis volutpat est velit egestas. Sodales ut etiam sit amet nisl purus in mollis. Libero enim sed faucibus turpis in eu mi bibendum. Aliquam vestibulum morbi blandit cursus risus at.
               </h6>
+              <transition name="button>">
+              <div class="button">
+                <v-btn next to="/upload">시작하기</v-btn>
+              </div>
+              </transition>
             </div>
           </v-col>
           <v-col class="col" md="5">
@@ -21,9 +26,6 @@
             />
           </v-col>
           </v-row>
-          <div class="button">
-            <v-btn next to="/upload">시작하기</v-btn>
-          </div>
         </v-container>
         <v-parallax src="@/assets/3.jpg" height="750">
           <v-row align="left" justify="left" text-align="left">
@@ -98,28 +100,24 @@ div {
 h6 {
   font-size: 20px;
 }
-
 .header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   max-width: 100%;
   height: 37%;
   text-align: left;
   padding: 0px;
-  margin-top: 0%;
+  margin: 0px;
 }
-
 .button {
   height: 60px;
   text-align: center;
   margin-top: 9%;
 }
-
 .before-enter {
   opacity: 0;
-  transform: translateX(500px);
+  transform: translateY(300px);
   transition: all 2.5s ease-out;
 }
-
 .enter {
   opacity: 1;
   transform: translateX(0px);
@@ -127,5 +125,19 @@ h6 {
 .text {
   font-size: 80px;
   font-weight: 900;
+}
+.button-leave-active,
+.button-enter-active {
+  transition: 1.5s;
+  opacity: 1;
+}
+.button-enter{
+  transform: translate(100%, 0);
+  opacity: 0;
+}
+
+.button-leave-to {
+  transform: translate(-100%, 0);
+  opacity: 0;
 }
 </style>

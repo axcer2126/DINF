@@ -1,6 +1,6 @@
 <template>
 <v-main>
-  <v-app-bar height="100px" app flat color="#FFFFFF" hide-on-scroll target="#tarege" scroll-threshold="150">
+  <v-app-bar height="100px" app flat color="#FFFFFF" hide-on-scroll target="#tarege" scroll-threshold="75">
     <v-toolbar-title>
       <div @click="Home">
         <h1>BIT IMAGE</h1>
@@ -9,7 +9,7 @@
     <v-spacer></v-spacer>
     <slot name="menubar">
       <v-btn next to="/" text color="black" style="padding: 10px; width: 90px;">Home</v-btn>
-      <v-btn next to="member" text color="black" style="padding: 10px; width: 90px;">my</v-btn>
+      <v-btn next to="member" text color="black" style="padding: 10px; width: 90px;">members</v-btn>
       <v-btn next to="about" text color="black" style="padding: 10px; width: 90px;">about</v-btn>
       <v-btn @click="onClickLogout" text color="black" style="padding: 10px; width: 90px;" v-if="isLogedin">Logout</v-btn>
       <v-btn next to="/login" text color="black" style="padding: 10px; width: 90px;" v-else>Login</v-btn>

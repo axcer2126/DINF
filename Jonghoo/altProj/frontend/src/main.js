@@ -10,13 +10,10 @@ import ScrollAnimation from './directives/scrollAnimation'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
-import ScrollBtnAnimation from './directives/scrollBtnAnimation'
-
 import moment from 'moment'
 import VueMoment from 'vue-moment'
 
 Vue.directive('scrollanimation', ScrollAnimation)
-Vue.directive('scrollanimation', ScrollBtnAnimation)
 
 Vue.config.productionTip = false
 
